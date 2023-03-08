@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- inizio con un bel commento invisibile-->
-    <a href="https://www.cioffimichele.org" target="_blank"></a><br>
+    <header>
+        <h1>I TAG HTML</h1>
+        <h2>uno studio</h2>
+        <hr>
+    </header>
+    <a href="http://www.cioffimichele.org" target="_blank" hreflang="it"> link al sito del Cavaliere</a><br>
+    <p>
+        Di seguito un <em> abbreviazione</em>: per esempio <abbr title="ABBREVIAZIONE">abbr</abbr> è un'abbreviazione di
+        abbreviazione.
+    </p>
+    <article>Questo è un articolo &lt;article&gt;</article>
+    <aside>per distinguere questo testo utilizzo il tag &lt;aside&gt;</aside>
+    poi un esempio di file audio: <br><br>
+    <audio controls>
+        <source src="https://upload.wikimedia.org/wikipedia/commons/6/62/Deutsch_scale_illusion.ogg"> qua un file audio
+    </audio><br><br>
+    Qua abbiamo invece <b>qualcosa scritto in grassetto</b><br>
+    <strong>Così sempre scritto in <del>corsivo</del> grassetto ma con valore semantico</strong><br>
+    Specifico con &lt;base&gt; l'attributo target="_blank" come base per tutti i link di questa pagina <base href="" target="_blank"><br>
+    Proviamo con un nuovo link <a href="https://www.google.com">Google</a><br>
+     <bdi>Qua invece isolo del testo in modo che non venga formattato con la direzione del testo esterno al tag con &lt;bdi&gt;</bdi><br>
+     &lt;bdo&gt; <bdo dir="rtl">qua lo overrido con</bdo><br>
+     <blockquote cite="https://www.w3schools.com/TAGs/tag_blockquote.asp"> con questo tag &lt;blockquote&gt; separo in una sezione diversa una citazione </blockquote>
+Ora piazziamoci un bel <button type="button">BUTTONE</button><br>
+Per disegnare utlizzo il tag &lt;canvas&gt;, che permetterà poi di creare disegni ed animazioni con JS <br>
+<caption> Per mettere un titolo ad una tabella creata con HTML uso &lt;caption&gt;</caption> <br>
+Posso inserire un <cite>titolo di opera d'arte</cite>, per esempio <br>
+C'è una tag con un carattere apposta per scrivere <code>codice</code> <br>
+Con &lt;data&gt; attribuisco ad un prodotto un valore <data value="999">Pepo</data><br>
+Con &lt;datalist&gt; creo una lista di valori predefiniti <datalist id="input">
+<option value="1"></option>
+<option value="2"></option>
+<option value="3"></option>
+</datalist> <br>
+All'interno di una lista di descrizione &lt;dl&gt; posso inserire descrizioni con &lt;dd&gt;. Facciamo un esempio:
+<dl>
+    <dt>Bianco</dt>
+    <dd>il bianco è un colore da schiappe</dd>
+    <dt>Viola</dt>
+    <dd>uber cool <details> <summary> <i>traduzione</i></summary>mega figo </details></dd>
+</dl>
+Spariamoci un bel definition element eccolo <dfn>definition element</dfn><br><br>
+
+<dialog open>DIALOGO RANDOM</dialog open>
+ <div>&lt;div&gt; crea una sezione in un documento</div>
+ con embed possiamo inserire un'immagine. video o pagina
+ <figure>
+ <embed type="image/jpg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwiki.killuglyradio.com%2Fimages%2F6%2F6a%2FJohann_Sebastian_Bach.jpg&f=1&nofb=1&ipt=b6bcb1b46e0bfd5d35dc51f334b0028b1e6aee1976409fd3c679640009c8a7b0&ipo=images" type="immagine" height="100" >
+<figcaption>caption: Ze best</figcaption>
+</figure>
+<br>
+<fieldset>
+    <legend>Fieldset:</legend>
+    <label for="">Label1</label>
+    <input type="text"><br>
+    <label for="">Label2</label>
+    <input type="text"><br>
+    <label for="">Label3</label>
+    <input type="text"><br>
     
+</fieldset>
+<br> Quello sopra era un fieldset. Quello sotto invece sarà un form: <br>
+<br><form action="">
+    <label for="Label1"></label>
+    <input type="text" name="" id=""><br>
+    <label for="Label2"></label>
+    <input type="text" name="" id=""><br>
+    <label for="Label3"></label>
+    <input type="text" name="" id=""><br>
+</form>
+<br> Frame. Eccone uno: <br>
+<iframe src="file:///C:/Users/Pepo/Desktop/Programmazione/progetti/test.html/index.html" frameborder="2" title="pagina nella pagina"></iframe>
+<br>
+visto che prima non è partita l'immagine ora la proviamo a caricare con il tag &lt;img&gt; <br>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstaatsbibliothek-berlin.de%2Ffileadmin%2Fuser_upload%2Fzentrale_Seiten%2Fmusikabteilung%2Fbilder%2F00018806-layout-k.jpg&f=1&nofb=1&ipt=3f1fe984266c5f4699b1886c9d2d829b70a1582bf4d5e7b78f24fda793fc0500&ipo=images" alt="Il Maestro">
+<br>
+<br> input usato come barra divisoria taaaac: <input type="text"><br>
+
+
+
+
+    <footer>
+        <br>
+        Esercizio fatto da pepo999, <br><br>
+        <address>via Castelletto Puzzone sul Mincio,999</address>
+    </footer>
 </body>
+
 </html>
